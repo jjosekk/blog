@@ -1,0 +1,92 @@
+.sign-up {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 60px;
+  width: 384px;
+  height: auto;
+  padding: 48px 32px;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  box-shadow: 0px 0.609px 2.933px 0px rgba(0, 0, 0, 0.02), 0px 1.463px 7.049px 0px rgba(0, 0, 0, 0.03),
+    0px 2.755px 13.273px 0px rgba(0, 0, 0, 0.04), 0px 4.914px 23.676px 0px rgba(0, 0, 0, 0.04),
+    0px 9.191px 44.284px 0px rgba(0, 0, 0, 0.05), 0px 22px 106px 0px rgba(0, 0, 0, 0.07);
+}
+
+.title {
+  width: 311px;
+  color: #262626;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.form {
+  margin-top: 21px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form label {
+  width: 320px;
+  color: #262626;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.input {
+  width: 320px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  padding: 8px 12px;
+  color: #bfbfbf;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.input-error {
+  border-color: #f5222d;
+}
+
+.error-message {
+  margin-top: 5px;
+  color: #f5222d;
+}
+
+.button {
+  display: flex;
+  width: 319px;
+  padding: 8px 16px;
+  margin-top: 21px;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  border-radius: 4px;
+  background: #1890ff;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.button:disabled {
+  background: #8c8c8c;
+}
